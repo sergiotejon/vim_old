@@ -82,7 +82,3 @@ Set the scheme using `:colorscheme NAME`.
 * Use _,c_ to copy the highlighted text into the OS clipboard
 * Use _,v_ to paste the OS clipboard into the document
 
-### SCMs differences viewer
-
-* Use _\d_ to Toggle diff view on/off
-* Use _:D rev_ to Differences between current and rev
