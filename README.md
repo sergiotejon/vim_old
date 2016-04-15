@@ -86,3 +86,30 @@ Set the scheme using `:colorscheme NAME`.
 
 * Use _\d_ to Toggle diff view on/off
 * Use _:D rev_ to Differences between current and rev
+
+### Emmet for VIM
+
+Open or create a New File:
+
+    vim index.html
+
+Type ("\_" is the cursor position):
+
+    html:5_
+
+Then type `<c-y>,` (<kbd>Ctrl</kbd><kbd>y</kbd><kbd>,</kbd>), and you should see:
+
+```html
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	_
+</body>
+</html>
+```
+
+[More Tutorials](https://raw.github.com/mattn/emmet-vim/master/TUTORIAL)

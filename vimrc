@@ -154,6 +154,9 @@ autocmd vimenter * if !argc() | NERDTree | endif
 " Hides "Press ? for help"
 let NERDTreeMinimalUI=1
 
+" Open files in new tabs
+let NERDTreeMapOpenInTab='\r'
+
 "------  Tagbar Plugin Options  ------
 " http://adamyoung.net/Exuberant-Ctags-OS-X
 " http://www.vim.org/scripts/script.php?script_id=273
